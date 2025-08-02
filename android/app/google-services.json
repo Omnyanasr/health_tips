@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "936933655705",
+    "project_id": "health-tips-a6b56",
+    "storage_bucket": "health-tips-a6b56.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936933655705:android:aa22ff8377c902df42a408",
+        "android_client_info": {
+          "package_name": "com.example.health_tips"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmjdg3yv82ffuibDIAKorySIZWM66N7gc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
