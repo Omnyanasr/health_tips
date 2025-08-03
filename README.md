@@ -4,7 +4,12 @@ A cross‑platform Flutter application that allows users to register their age a
 
 ---
 
-## **Features**
+## **📸 App Preview**
+| <img src="screenshots/output1.jpg" width="250"> | <img src="screenshots/output2.jpg" width="250"> | <img src="screenshots/output3.jpg" width="250"> |
+
+---
+
+## **🚀 Features**
 - **User Registration**
   - Collects age and fitness goals.
   - Stores user details in Firestore.
