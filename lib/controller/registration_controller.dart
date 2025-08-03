@@ -8,8 +8,6 @@ class RegistrationController {
 
   Future<String> registerUser(int age, String fitnessGoal, String uid) async {
     final token = await _notificationService.getFcmToken();
-    // Optional: print or log token for debugging
-    // print('FCM Token: $token');
 
     UserModel user = UserModel(
       uid: uid,

@@ -29,7 +29,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
     setState(() => _isLoading = true);
 
     try {
-      String uid = 'user123'; // Replace with real UID in your app auth
+      String uid = 'user123'; // Replace with real UID
       int age = int.parse(_ageController.text);
 
       String message = await _controller.registerUser(age, _selectedGoal, uid);
@@ -133,7 +133,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                                     )
                                     .toList(),
                           ),
-                          const SizedBox(height: 48),
+                          const SizedBox(height: 50),
                           SizedBox(
                             height: 55,
                             child: ElevatedButton(
