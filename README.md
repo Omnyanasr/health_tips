@@ -1,16 +1,59 @@
-# health_tips
+# **Health Tips App**  
 
-A new Flutter project.
+A cross‑platform Flutter application that allows users to register their age and fitness goals, then receive personalized health tips via notifications.  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## **Features**
+- **User Registration**
+  - Collects age and fitness goals.
+  - Stores user details in Firestore.
+- **Personalized Health Tips**
+  - Generates tips based on age and fitness goal.
+  - Sends them via notifications.
+- **Cross‑Platform Notifications**
+- **Firestore Integration**
+  - Saves and retrieves user data securely.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## **📂 Project Structure**
+```
+lib/
+  controller/
+    registration_controller.dart
+  screens/
+    registration_screen.dart
+  services/
+    firestore_service.dart
+    notification_service.dart
+  utils/
+    user_model.dart
+  main.dart
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## **⚙️ Setup Instructions**
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/Omnyanasr/health_tips.git
+cd health_tips
+```
+
+### **2. Install Dependencies**
+```bash
+flutter pub get
+```
+
+### **3. Configure Firebase**
+- Create a Firebase project in [Firebase Console](https://console.firebase.google.com/).
+- Enable **Firestore**.
+- Download:
+  - `google-services.json` → place in `android/app/`
+  - `GoogleService-Info.plist` → place in `ios/Runner/`
+
+### **4. Run the App**
+```bash
+flutter run
+```
